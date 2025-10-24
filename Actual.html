@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>APL Creative Hub</title>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1 class="glow-text" id="top">APL Creative Hub</h1>
+    <p class="typing-text"></p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- About -->
+  <section id="about" class="section fade-in">
+    <h2>About Us</h2>
+    <p>Welcome to <strong>APL Creative Hub</strong> — where imagination meets innovation. 
+    We design, create, and market digital experiences through 🎨 Graphic Design, 🎬 Video Editing, 💻 Affiliate Marketing, and 📢 Digital Marketing.</p>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="section fade-in">
+    <h2>Our Services</h2>
+    <div class="service-grid">
+      <div class="service-card">🎨<a href="http://chat.whatsapp.com/ElMhxVFKBW0lyQOYvTkAc8?mode=ems_wa_t" target="_blank" class="link"><h3>Graphic Design</h3><p>Eye-catching visuals that tell your story.</p></a></div>
+      <div class="service-card">🎬 <a href="http://chat.whatsapp.com/ElMhxVFKBW0lyQOYvTkAc8?mode=ems_wa_t" target="_blank" class="link"><h3>Video Editing</h3><p>Engaging edits that bring your vision to life.</p></a></div>
+      <div class="service-card">💻 <a href="http://chat.whatsapp.com/ElMhxVFKBW0lyQOYvTkAc8?mode=ems_wa_t" target="_blank" class="link"><h3>Affiliate Marketing</h3><p>Helping brands connect and grow online.</p></a></div>
+      <div class="service-card">📢 <a href="http://chat.whatsapp.com/ElMhxVFKBW0lyQOYvTkAc8?mode=ems_wa_t" target="_blank" class="link"><h3>Digital Marketing</h3><p>Boosting your visibility with smart strategies.</p></a></div>
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section id="portfolio" class="section fade-in">
+    <h2>Our Portfolio</h2>
+    <div class="portfolio-grid">
+      <div class="portfolio-item"><img src="c:\Users\Adjokatse Prince\Desktop\20250929_180901.jpg" alt="Design 1"><p>Logo Design</p></div>
+      <div class="portfolio-item"><img src="c:\Users\Adjokatse Prince\Desktop\20241231_234723.jpg" alt="Design 2"><p>Brand Identity</p></div>
+      <div class="portfolio-item"><img src="c:\Users\Adjokatse Prince\Desktop\20250421_142709.jpg" alt="Design 3"><p>Social Media Ad</p></div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section fade-in contact">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+      <input type="text" name="name" placeholder="APL Creative Hub" required />
+      <input type="email" name="email" placeholder="princelawerhadjokatse@gmail.com" required />
+      <textarea name="message" placeholder="Hello....." required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+ <div align="right"><a href="#top" class="sure">TOP</a></div>
+
+  <!-- Footer -->
+  <footer>
+    <p>Follow us:</p>
+    <div class="social-links">
+      <a href="https://facebook.com/profile.php?id=61554768350979" target="_blank">📘 Facebook</a>
+      <a href="https://www.instagram.com/@aplcreativehub?igsh=MTd0N3p1MmNwNzdjdA==" target="_blank">📸 Instagram</a>
+      <a href="https://x.com/APL_Graphix?t=CyBcy0-D8i8jC8HWExQE6w&s=09" target="_blank">🐦 Twitter</a>
+      <a href="https://tiktok.com/@aplcreativehub" target="_blank">🎵 TikTok</a>
+    </div>
+    <p>© 2025 APL Creative Hub. All Rights Reserved.</p>
+  </footer>
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  body {
+    color: #fff;
+    scroll-behavior: smooth;
+    background: linear-gradient(270deg, #141e30, #243b55, #1f1c2c);
+    background-size: 600% 600%;
+    animation: gradientShift 15s ease infinite;
+  }
+  
+  /* Animate background gradient */
+  @keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
+  /* Header */
+  header {
+    text-align: center;
+    padding: 4rem 1rem;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  .glow-text {
+    font-size: 5rem;
+    color: #ffb400;
+    text-shadow: 0 0 20px #facf6b, 0 0 30px #52e5f0;
+    animation: glowPulse 2s infinite alternate;
+  }
+  @keyframes glowPulse {
+    from { text-shadow: 0 0 10px #ffb400; }
+    to { text-shadow: 0 0 30px #ffb400; }
+  }
+  .sure{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+  }
+  .sure:hover{
+    color: red;
+  }
+  .link{
+    text-decoration: none;
+    color: white;
+  }
+  .link:hover{
+    color: rgb(208, 255, 0);
+  }
+
+  /* Typing effect */
+  .typing-text {
+    color: #fff;
+    font-style: italic;
+    font-size: 1.2rem;
+    margin: 0.5rem 0 1rem;
+    border-right: 2px solid #ffb400;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+    animation: typing 6s steps(40) infinite alternate;
+  }
+  @keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+  
+  /* Navigation */
+  nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s;
+  }
+  nav a:hover {
+    color: #ffb400;
+  }
+  
+  /* Section styling */
+  .section {
+    padding: 3rem 1rem;
+    text-align: center;
+  }
+  .section h2 {
+    color: #ffb400;
+    margin-bottom: 1rem;
+  }
+  
+  /* Fade-in effect */
+  .fade-in {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 1s ease-in-out;
+  }
+  .fade-in.visible {
+    opacity: 1;
+    transform: translateY(10px);
+  }
+  
+  /* Services */
+  .service-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+  }
+  .service-card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 1.5rem;
+    border-radius: 15px;
+    transition: 0.4s;
+  }
+  .service-card:hover {
+    background: rgba(255, 255, 255, 0.25);
+    transform: translateY(-5px);
+  }
+  
+  /* Portfolio */
+  .portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+  }
+  .portfolio-item img {
+    width: 100%;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+  }
+  .portfolio-item img:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Contact */
+  .contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 400px;
+    margin: auto;
+  }
+  .contact input,
+  .contact textarea {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+  }
+  .contact button {
+    background: #ffb400;
+    border: none;
+    padding: 10px;
+    color: #000;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: 0.3s;
+  }
+  .contact button:hover {
+    background: #fff;
+    color: #000;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    background: rgba(0, 0, 0, 0.7);
+  }
+  .social-links a {
+    margin: 0 10px;
+    color: #ffb400;
+    text-decoration: none;
+  }
+  .social-links a:hover {
+    text-decoration: none;
+    color: blue;
+  }
+</style>
+<script>
+    // WhatsApp Form Integration
+document.getElementById("contactForm").addEventListener("submit", function(e) {
+    e.preventDefault();
+  
+    const name = document.querySelector("input[name='name']").value;
+    const email = document.querySelector("input[name='email']").value;
+    const message = document.querySelector("textarea[name='message']").value;
+  
+    // recipient's number
+    const phoneNumber = "233536622042";
+  
+    const whatsappMessage = `Hello APL Creative Hub! 👋
+  My name is ${name}.
+  Email: ${email}
+  Message: ${message}`;
+  
+    const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(whatsappMessage)}`;
+    window.open(url, "_blank");
+  });
+  
+  // Typing Effect Text
+  const textElement = document.querySelector(".typing-text");
+  const text = "Your Digital World, Our Creative Touch ⚡🌐✨";
+  let index = 0;
+  
+  function typeEffect() {
+    if (index < text.length) {
+      textElement.textContent += text.charAt(index);
+      index++;
+      setTimeout(typeEffect, 100);
+    } else {
+      setTimeout(() => {
+        textElement.textContent = "";
+        index = 0;
+        typeEffect();
+      }, 3000);
+    }
+  }
+  typeEffect();
+  
+  // Fade-in on scroll
+  const fadeElements = document.querySelectorAll(".fade-in");
+  window.addEventListener("scroll", () => {
+    fadeElements.forEach(el => {
+      const rect = el.getBoundingClientRect();
+      if (rect.top < window.innerHeight - 100) {
+        el.classList.add("visible");
+      }
+    });
+  });
+</script>
+</body>
+</html>
